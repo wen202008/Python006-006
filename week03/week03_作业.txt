@@ -20,7 +20,7 @@ init_connect = 'SET NAMES utf8mb4'
 create user 'testuser'@'%' identified by 'testpass';
 grant all on testdb.* to 'testuser'@'%';
 
-2、见week03-work3.py
+2、见week03-work2.py
 
 3、sql之前标号为执行顺序：
  5   SELECT DISTINCT player_id, player_name, count(*) as num 
